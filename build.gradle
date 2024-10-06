@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.ow2.sat4j:org.ow2.sat4j.core:2.3.6'
+}
+
+application {
+    mainClass = 'de.uka.iti.lights.Solution'
+}
